@@ -20,10 +20,10 @@ Adds `<num>` to the list of numbers.
 ## Requirements
 
 * Base system
- * nodejs v16
- * npm
+  * nodejs v16
+  * npm
 * MySQL/MariaDB database
- * Provide database details as environment variables `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
+  * Provide database details as environment variables `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
 
 ## Installation / run instructions
 
