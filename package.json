@@ -1,0 +1,22 @@
+{
+  "name": "exampleapi",
+  "version": "0.0.1",
+  "description": "A simple HTTP API that connects to a database. For ops testing purposes.",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nocache": "^3.0.4"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "start": "node -r esm index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
+}

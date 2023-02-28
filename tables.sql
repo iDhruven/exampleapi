@@ -1,0 +1,3 @@
+CREATE TABLE example_numbers (
+  num BIGINT NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
